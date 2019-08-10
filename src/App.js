@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react"
+import Effector from "~/components/Effector"
 
-function App() {
-  return (
-    <div className="App">
-      Playground
-    </div>
-  );
-}
+const App = () => (
+  <Effector />
+)
 
-export default App;
+export default App
