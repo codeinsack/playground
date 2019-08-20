@@ -1,8 +1,9 @@
 import React from "react"
-import Effector from "~/components/Effector"
+
+import Test from "./components/Test"
 
 const App = () => (
-  <Effector />
+  <Test min={1} max={9} />
 )
 
 export default App

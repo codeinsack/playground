@@ -1,4 +1,4 @@
-import { request } from "~/axios"
+import { request } from "../axios"
 
 const getCountries = async () => request.get("/countries")
 

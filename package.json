@@ -5,6 +5,8 @@
   "dependencies": {
     "@material-ui/core": "^4.2.0",
     "@material-ui/icons": "^4.2.1",
+    "@testing-library/jest-dom": "^4.0.1",
+    "@testing-library/react": "^9.1.3",
     "autosuggest-highlight": "^3.1.1",
     "axios": "^0.19.0",
     "effector": "^20.0.0",
@@ -29,9 +31,9 @@
     "yup": "^0.27.0"
   },
   "scripts": {
-    "start": "cra-alias start",
-    "build": "cra-alias build",
-    "test": "cra-alias test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch ./data/db.json --port 3001",
     "check": "jscpd src -r html"
@@ -52,7 +54,6 @@
     ]
   },
   "devDependencies": {
-    "cra-alias": "^4.13.14",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-plugin-import": "^2.18.0",

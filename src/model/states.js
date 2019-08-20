@@ -9,7 +9,7 @@ import {
   createApi,
 } from "effector"
 
-import { CountriesApi } from "~/api/states"
+import { CountriesApi } from "../api/states"
 
 const $filter = createStore("Ar")
 
